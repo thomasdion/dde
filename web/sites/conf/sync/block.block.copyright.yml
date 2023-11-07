@@ -1,0 +1,20 @@
+uuid: dffc74fd-ab72-44a7-85db-9f5058c6413f
+langcode: el
+status: true
+dependencies:
+  module:
+    - dpe_blocks
+  theme:
+    - b5dpe
+id: copyright
+theme: b5dpe
+region: footer
+weight: 0
+provider: null
+plugin: dpe_blocks_copyright
+settings:
+  id: dpe_blocks_copyright
+  label: Copyright
+  label_display: '0'
+  provider: dpe_blocks
+visibility: {  }

@@ -1,0 +1,24 @@
+uuid: fada4199-446b-4813-8857-8c5018b8e617
+langcode: el
+status: true
+dependencies:
+  config:
+    - views.view.calendar
+  module:
+    - views
+  theme:
+    - b5dpe
+id: views_block__calendar_block_1
+theme: b5dpe
+region: sidebar_second
+weight: -14
+provider: null
+plugin: 'views_block:calendar-block_1'
+settings:
+  id: 'views_block:calendar-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

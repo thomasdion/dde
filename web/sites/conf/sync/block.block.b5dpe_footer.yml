@@ -1,0 +1,27 @@
+uuid: d66d3ce3-ecee-4540-9a4a-3718ebfdd5f0
+langcode: el
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - b5dpe
+_core:
+  default_config_hash: xG64dPOosl5KkXvFxzbdO_gwHaztX66eEuj4uoz4BQE
+id: b5dpe_footer
+theme: b5dpe
+region: footer
+weight: -11
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

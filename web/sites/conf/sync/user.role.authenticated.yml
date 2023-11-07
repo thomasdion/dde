@@ -1,0 +1,24 @@
+uuid: 8757f0cd-3edf-4508-bd41-66e293030566
+langcode: el
+status: true
+dependencies:
+  module:
+    - contact
+    - eu_cookie_compliance
+    - media
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Πιστοποιημένος χρήστης'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'display eu cookie compliance popup'
+  - 'search content'
+  - 'view media'

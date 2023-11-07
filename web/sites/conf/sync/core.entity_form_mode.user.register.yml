@@ -1,0 +1,12 @@
+uuid: f4156f4b-bb86-44dc-96fc-942a4bf2184c
+langcode: el
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
+id: user.register
+label: Εγγραφή
+targetEntityType: user
+cache: true

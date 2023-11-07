@@ -1,0 +1,15 @@
+uuid: ee7c6b72-cc32-4c02-9302-28900cfa552f
+langcode: el
+status: true
+dependencies: {  }
+name: useful_links
+label: 'Χρήσιμοι Σύνδεσμοι (.. x 85px)'
+effects:
+  b411a47b-7405-4214-9e49-b336bc87fadd:
+    uuid: b411a47b-7405-4214-9e49-b336bc87fadd
+    id: image_scale
+    weight: 1
+    data:
+      width: null
+      height: 85
+      upscale: true

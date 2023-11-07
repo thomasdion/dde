@@ -1,0 +1,22 @@
+uuid: 26f1a239-a7f4-4d86-8020-65356e097a30
+langcode: el
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5dpe
+_core:
+  default_config_hash: dIMbYgVG_uj7t_ZquvryDDsUhZ5ItGJCCX3kiaPK4ag
+id: b5dpe_messages
+theme: b5dpe
+region: content
+weight: -17
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

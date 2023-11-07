@@ -1,0 +1,24 @@
+uuid: 49767fe4-e6a7-4709-8cf5-d6cadece1bfa
+langcode: el
+status: true
+dependencies:
+  config:
+    - views.view.select_articles_by_term
+  module:
+    - views
+  theme:
+    - b5dpe
+id: views_block__select_articles_by_term_block_1
+theme: b5dpe
+region: sidebar_first
+weight: -16
+provider: null
+plugin: 'views_block:select_articles_by_term-block_1'
+settings:
+  id: 'views_block:select_articles_by_term-block_1'
+  label: 'ΑΝΑΖΗΤΗΣΗ ΑΡΘΡΩΝ'
+  label_display: visible
+  provider: views
+  views_label: 'ΑΝΑΖΗΤΗΣΗ ΑΡΘΡΩΝ'
+  items_per_page: '48'
+visibility: {  }

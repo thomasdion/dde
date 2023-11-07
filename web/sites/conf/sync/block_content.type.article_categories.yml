@@ -1,0 +1,8 @@
+uuid: 43537517-58ea-44c5-9a49-e8885f570c1d
+langcode: el
+status: true
+dependencies: {  }
+id: article_categories
+label: 'Article Categories'
+revision: 0
+description: 'Βασικό μενού ομαδοποίησης κατηγοριών άρθρων'

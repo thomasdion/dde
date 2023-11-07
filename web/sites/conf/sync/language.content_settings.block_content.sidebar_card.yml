@@ -1,0 +1,11 @@
+uuid: 629f9d07-6717-4d21-b5f6-d212decc26d9
+langcode: el
+status: true
+dependencies:
+  config:
+    - block_content.type.sidebar_card
+id: block_content.sidebar_card
+target_entity_type_id: block_content
+target_bundle: sidebar_card
+default_langcode: site_default
+language_alterable: false

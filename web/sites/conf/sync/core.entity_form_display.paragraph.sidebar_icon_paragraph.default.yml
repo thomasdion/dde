@@ -1,0 +1,36 @@
+uuid: ac2c278e-c0b5-4a00-86ad-aca7cfbb5473
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.sidebar_icon_paragraph.field_icon
+    - field.field.paragraph.sidebar_icon_paragraph.field_icon_link
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.sidebar_icon_paragraph
+  module:
+    - image
+    - link
+id: paragraph.sidebar_icon_paragraph.default
+targetEntityType: paragraph
+bundle: sidebar_icon_paragraph
+mode: default
+content:
+  field_icon:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_icon_link:
+    type: link_default
+    weight: 1
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

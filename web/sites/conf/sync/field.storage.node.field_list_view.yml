@@ -1,0 +1,30 @@
+uuid: cd25442e-ca2d-4307-8689-8e3bc510d2c3
+langcode: el
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_list_view
+field_name: field_list_view
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 2
+      label: Πλήρης
+    -
+      value: 1
+      label: Περικομμένη
+    -
+      value: 0
+      label: Τίτλος
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

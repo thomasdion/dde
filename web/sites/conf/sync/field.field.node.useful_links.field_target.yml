@@ -1,0 +1,23 @@
+uuid: 4084f5c8-8d92-492c-9cd6-d5f49f12ee8e
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_target
+    - node.type.useful_links
+  module:
+    - options
+id: node.useful_links.field_target
+field_name: field_target
+entity_type: node
+bundle: useful_links
+label: Target
+description: '''Ανοιγμα νέου παραθύρου σε:'
+required: false
+translatable: false
+default_value:
+  -
+    value: _self
+default_value_callback: ''
+settings: {  }
+field_type: list_string

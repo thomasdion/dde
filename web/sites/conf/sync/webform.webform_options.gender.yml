@@ -1,0 +1,16 @@
+uuid: c20e0bb0-7351-43a5-ae17-491fd899b2c7
+langcode: el
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: K8qTfK5-87DpwTQBkqhgTMR4P0Zz8Z9aNI7OnMlTb0Q
+id: gender
+label: Γένος
+category: Demographic
+likert: false
+options: |
+  Male: Male
+  Female: Female

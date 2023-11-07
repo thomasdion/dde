@@ -1,0 +1,30 @@
+uuid: 94dd2df6-65ce-48cc-aafc-14d98345d360
+langcode: el
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:41ec883a-f862-4bd5-a282-6e57e122f75e'
+  module:
+    - block_content
+    - system
+  theme:
+    - b5dpe
+id: entypaekdromon
+theme: b5dpe
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:41ec883a-f862-4bd5-a282-6e57e122f75e'
+settings:
+  id: 'block_content:41ec883a-f862-4bd5-a282-6e57e122f75e'
+  label: 'ΕΝΤΥΠΑ ΕΚΔΡΟΜΩΝ'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /nomothesia-ekdromon

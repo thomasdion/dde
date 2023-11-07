@@ -1,0 +1,30 @@
+uuid: a0f4a096-2f10-4d21-a81e-684e2f3c2eec
+langcode: el
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c8ca19b1-df21-4c39-a4ac-b909d97f83d6'
+  module:
+    - block_content
+    - system
+  theme:
+    - b5dpe
+id: periballontikiekpaideysi
+theme: b5dpe
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:c8ca19b1-df21-4c39-a4ac-b909d97f83d6'
+settings:
+  id: 'block_content:c8ca19b1-df21-4c39-a4ac-b909d97f83d6'
+  label: 'Περιβαλλοντική Εκπαίδευση'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /perivallontiki-ekpaidefsi

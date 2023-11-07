@@ -1,0 +1,22 @@
+uuid: db6893f5-747c-4ad1-8608-23a4e1e07c5e
+langcode: el
+status: true
+dependencies:
+  config:
+    - node.type.useful_links
+id: node.useful_links.promote
+field_name: promote
+entity_type: node
+bundle: useful_links
+label: 'Προβιβασμένο στην πρώτη σελίδα'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Ανοικτό
+  off_label: Κλειστό
+field_type: boolean

@@ -1,0 +1,27 @@
+uuid: 5397502e-3b1f-47cb-b5f2-2263aa8a9f4e
+langcode: el
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - b5dpe
+_core:
+  default_config_hash: lZo3_mGKn2zo1y3_Pz12CywmOGqRin9gxExtiFYDgs8
+id: b5dpe_main_navigation
+theme: b5dpe
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 2061ff88-0ec0-4860-9efa-fb113636dc4d
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-top
+  module:
+    - system
+  theme:
+    - b5dpe
+id: footertop
+theme: b5dpe
+region: footer
+weight: -12
+provider: null
+plugin: 'system_menu_block:footer-top'
+settings:
+  id: 'system_menu_block:footer-top'
+  label: 'Footer Top'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

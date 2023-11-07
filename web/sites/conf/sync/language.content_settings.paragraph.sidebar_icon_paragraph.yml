@@ -1,0 +1,18 @@
+uuid: 2eb8355d-cc00-4f30-babf-1ccccb1df752
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.sidebar_icon_paragraph
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.sidebar_icon_paragraph
+target_entity_type_id: paragraph
+target_bundle: sidebar_icon_paragraph
+default_langcode: site_default
+language_alterable: false

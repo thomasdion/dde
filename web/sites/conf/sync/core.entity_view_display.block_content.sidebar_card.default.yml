@@ -1,0 +1,47 @@
+uuid: c945cc53-6c50-4bae-946d-151f0050b0bf
+langcode: el
+status: true
+dependencies:
+  config:
+    - block_content.type.sidebar_card
+    - field.field.block_content.sidebar_card.field_wishes_cart
+  module:
+    - blazy
+id: block_content.sidebar_card.default
+targetEntityType: block_content
+bundle: sidebar_card
+mode: default
+content:
+  field_wishes_cart:
+    type: blazy
+    label: hidden
+    settings:
+      caption:
+        title: '0'
+        alt: '0'
+      layout: ''
+      view_mode: ''
+      cache: 0
+      skin: ''
+      lazy: ''
+      style: ''
+      background: false
+      box_caption: ''
+      box_caption_custom: ''
+      box_media_style: ''
+      loading: ''
+      preload: false
+      responsive_image_style: ''
+      box_style: ''
+      image_style: ''
+      media_switch: ''
+      ratio: ''
+      thumbnail_style: ''
+      grid: ''
+      grid_medium: ''
+      grid_small: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

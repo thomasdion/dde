@@ -1,0 +1,30 @@
+uuid: f994ce48-60f9-42e5-9730-61d9e5363085
+langcode: el
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:93c9f5ae-6b2b-4d07-84e2-f14b4877a8dc'
+  module:
+    - block_content
+    - system
+  theme:
+    - b5dpe
+id: politistikathemata
+theme: b5dpe
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:93c9f5ae-6b2b-4d07-84e2-f14b4877a8dc'
+settings:
+  id: 'block_content:93c9f5ae-6b2b-4d07-84e2-f14b4877a8dc'
+  label: 'Πολιτιστικά Θέματα'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /politistika-themata

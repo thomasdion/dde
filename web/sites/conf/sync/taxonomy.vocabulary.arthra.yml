@@ -1,0 +1,8 @@
+uuid: 86acb6f6-9ecd-48bd-8919-56f62e3c6ab4
+langcode: el
+status: true
+dependencies: {  }
+name: Άρθρα
+vid: arthra
+description: 'Ετικέτες σχετικές με τα άρθρα'
+weight: 0

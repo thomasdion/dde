@@ -1,0 +1,18 @@
+uuid: 4802bf31-2ce8-4936-9c12-247272c29db4
+langcode: el
+status: true
+dependencies:
+  config:
+    - block_content.type.article_categories
+id: block_content.article_categories.info
+field_name: info
+entity_type: block_content
+bundle: article_categories
+label: 'Περιγραφή του μπλοκ'
+description: 'Μια σύντομη περιγραφή του μπλοκ σας.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

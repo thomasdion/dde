@@ -1,0 +1,22 @@
+uuid: 8c3d0c52-3222-4987-a6e6-2f48dce7d516
+langcode: el
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - b5dpe
+_core:
+  default_config_hash: wGDTiCyo_Z2vvIGIM1luxspI82kgB8fc8EXG16UpL5A
+id: b5dpe_powered_by_drupal
+theme: b5dpe
+region: footer
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

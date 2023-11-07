@@ -1,0 +1,12 @@
+uuid: f64e69fe-6933-43fb-aed5-48bed4667de4
+langcode: el
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: fVFfJv_GzBRE-wpRHbfD5a3VjnhbEOXG6lvRd3uaccY
+id: node.search_index
+label: 'Ευρετήριο αναζήτησης'
+targetEntityType: node
+cache: true

@@ -1,0 +1,18 @@
+uuid: f36f9ba0-b1a6-4ebb-8dab-50683c615190
+langcode: el
+status: true
+dependencies:
+  config:
+    - media.type.document
+id: media.document.changed
+field_name: changed
+entity_type: media
+bundle: document
+label: Τροποποιημένο
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

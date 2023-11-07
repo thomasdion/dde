@@ -1,0 +1,22 @@
+uuid: b81f370e-437a-4fdd-9c5c-0b7d866a77d6
+langcode: el
+status: true
+dependencies:
+  config:
+    - block_content.type.article_categories
+id: block_content.article_categories.status
+field_name: status
+entity_type: block_content
+bundle: article_categories
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Ανοικτό
+  off_label: Κλειστό
+field_type: boolean

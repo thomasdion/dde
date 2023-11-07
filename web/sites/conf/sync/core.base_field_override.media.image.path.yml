@@ -1,0 +1,20 @@
+uuid: 022fb696-cabe-4ca1-acef-e0868d639794
+langcode: el
+status: true
+dependencies:
+  config:
+    - media.type.image
+  module:
+    - path
+id: media.image.path
+field_name: path
+entity_type: media
+bundle: image
+label: 'Ψευδώνυμο URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

@@ -1,0 +1,26 @@
+uuid: 6efb967a-b020-4646-a707-4f5a4d29bf41
+langcode: el
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.article
+  module:
+    - filter
+    - node
+id: diaheiristis_grafeio_5
+label: 'Διαχειριστής Γραφείο 5'
+weight: 3
+is_admin: false
+permissions:
+  - 'create article content'
+  - 'delete own article content'
+  - 'edit own article content'
+  - 'revert article revisions'
+  - 'use text format basic_html'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view article revisions'
+  - 'view own unpublished content'

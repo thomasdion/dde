@@ -1,0 +1,20 @@
+uuid: e720d277-a11c-46ec-a133-5521b0af768d
+langcode: el
+status: true
+dependencies:
+  config:
+    - media.type.video
+  module:
+    - path
+id: media.video.path
+field_name: path
+entity_type: media
+bundle: video
+label: 'Ψευδώνυμο URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

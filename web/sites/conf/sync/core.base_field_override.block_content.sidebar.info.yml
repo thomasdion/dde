@@ -1,0 +1,18 @@
+uuid: 2cf432b8-a369-4a89-a7cc-57a18ca3cf0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sidebar
+id: block_content.sidebar.info
+field_name: info
+entity_type: block_content
+bundle: sidebar
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

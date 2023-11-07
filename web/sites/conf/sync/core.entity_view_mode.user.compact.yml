@@ -1,0 +1,12 @@
+uuid: 81da7026-36e2-4c5c-9dc4-ad9b321fca17
+langcode: el
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 71CSAr_LNPcgu6D6jI4INl1KATkahmeyUFBETAWya8g
+id: user.compact
+label: Συμπαγής
+targetEntityType: user
+cache: true

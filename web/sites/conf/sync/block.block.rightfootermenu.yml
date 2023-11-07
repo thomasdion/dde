@@ -1,0 +1,20 @@
+uuid: f18f24c2-8360-4f76-8cfe-c02c96d81924
+langcode: en
+status: true
+dependencies:
+  module:
+    - dpe_blocks
+  theme:
+    - b5dpe
+id: rightfootermenu
+theme: b5dpe
+region: footer
+weight: -10
+provider: null
+plugin: talk_helper_right_footer_menu
+settings:
+  id: talk_helper_right_footer_menu
+  label: 'Right Footer Menu'
+  label_display: '0'
+  provider: dpe_blocks
+visibility: {  }

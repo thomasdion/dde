@@ -1,0 +1,15 @@
+uuid: 47eff0e1-cddb-4cdb-873b-5432b40f2f06
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  abstract: 'Ο επίσημος δικτυακός τόπος της Διεύθυνσης Πρωτοβάθμιας Εκπαίδευσης Δυτικής Θεσσαλονίκης'
+  canonical_url: '[site:url]'
+  description: 'Ο επίσημος δικτυακός τόπος της Διεύθυνσης Πρωτοβάθμιας Εκπαίδευσης Δυτικής Θεσσαλονίκης'
+  keywords: 'Διεύθυνση Πρωτοβάθμιας Εκπαίδευσης Δυτικής Θεσσαλονίκης, Πρωτοβάθμια, Εκπαίδευση, παιδεία, Υπουργείο Παιδείας, Διεύθυνση'
+  shortlink: '[site:url]'
+  title: 'Διεύθυνση Πρωτοβάθμιας Εκπαίδευσης Δυτικής Θεσσαλονίκης'

@@ -1,0 +1,18 @@
+uuid: 49dd0ddc-7c6c-4d94-a0fe-7ff0f6835d08
+langcode: el
+status: true
+dependencies:
+  config:
+    - media.type.audio
+id: media.audio.changed
+field_name: changed
+entity_type: media
+bundle: audio
+label: Τροποποιημένο
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

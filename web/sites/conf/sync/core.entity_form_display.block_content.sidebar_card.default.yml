@@ -1,0 +1,39 @@
+uuid: 8ee65b90-d873-49d9-8e0f-8f246b99f1da
+langcode: el
+status: true
+dependencies:
+  config:
+    - block_content.type.sidebar_card
+    - field.field.block_content.sidebar_card.field_wishes_cart
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.sidebar_card.default
+targetEntityType: block_content
+bundle: sidebar_card
+mode: default
+content:
+  field_wishes_cart:
+    type: image_image
+    weight: 27
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

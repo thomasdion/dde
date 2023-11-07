@@ -1,0 +1,22 @@
+name: dde
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - dde/base
+  - dde/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - dde/user
+  core/drupal.dropbutton:
+    - dde/dropbutton
+  core/drupal.dialog:
+    - dde/dialog
+  file/drupal.file:
+    - dde/file
+  core/drupal.progress:
+    - dde/progress
+core_version_requirement: ^9
+generator: 'starterkit_theme:9.5.11'

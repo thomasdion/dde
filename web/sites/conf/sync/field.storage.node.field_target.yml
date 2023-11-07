@@ -1,0 +1,27 @@
+uuid: 44f761a3-571e-4b00-a6c7-2f64dbae7702
+langcode: el
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_target
+field_name: field_target
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: _self
+      label: _self
+    -
+      value: _blank
+      label: _blank
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

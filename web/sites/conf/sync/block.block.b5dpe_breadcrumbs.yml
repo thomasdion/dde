@@ -1,0 +1,22 @@
+uuid: 056991c0-bac9-4bdc-beaf-cf62c03288a6
+langcode: el
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - b5dpe
+_core:
+  default_config_hash: YjMCxKw8oJCbP2fi2c8jp69v5eFA7wku-nL1yvKguxE
+id: b5dpe_breadcrumbs
+theme: b5dpe
+region: content
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: visible
+  provider: system
+visibility: {  }

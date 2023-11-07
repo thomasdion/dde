@@ -1,0 +1,30 @@
+uuid: 46b6184f-7162-40a1-9dcc-17a66b8ee097
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.useful_links
+  module:
+    - link
+id: node.useful_links.field_link
+field_name: field_link
+entity_type: node
+bundle: useful_links
+label: Υπερσύνδεσμος
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    attributes: {  }
+    uri: 'route:<nolink>'
+    title: ''
+    options:
+      attributes:
+        target: _blank
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 17
+field_type: link

@@ -1,0 +1,18 @@
+uuid: e9c829ff-488a-4647-85ae-f38408033d45
+langcode: el
+status: true
+dependencies:
+  config:
+    - block_content.type.article_categories
+id: block_content.article_categories.changed
+field_name: changed
+entity_type: block_content
+bundle: article_categories
+label: Τροποποιημένο
+description: 'Η ώρα που έγινε η τελευταία επεξεργασία στο προσαρμοσμένο μπλοκ.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

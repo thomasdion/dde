@@ -1,0 +1,27 @@
+uuid: 6db62a1d-9255-4c64-8d27-8136e01d5719
+langcode: el
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.useful_links.field_icon
+    - field.field.node.useful_links.field_link
+    - field.field.node.useful_links.field_target
+    - node.type.useful_links
+  module:
+    - user
+id: node.useful_links.teaser
+targetEntityType: node
+bundle: useful_links
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_icon: true
+  field_link: true
+  field_target: true
+  langcode: true

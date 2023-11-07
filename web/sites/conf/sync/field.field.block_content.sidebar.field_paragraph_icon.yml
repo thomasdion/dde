@@ -1,0 +1,34 @@
+uuid: aeb506bc-c2ec-4b9d-8118-97a22461bbd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sidebar
+    - field.storage.block_content.field_paragraph_icon
+    - paragraphs.paragraphs_type.sidebar_icon_paragraph
+  module:
+    - entity_reference_revisions
+id: block_content.sidebar.field_paragraph_icon
+field_name: field_paragraph_icon
+entity_type: block_content
+bundle: sidebar
+label: paragraph_icon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      sidebar_icon_paragraph: sidebar_icon_paragraph
+    negate: 0
+    target_bundles_drag_drop:
+      category_link:
+        weight: 3
+        enabled: false
+      sidebar_icon_paragraph:
+        weight: 4
+        enabled: true
+field_type: entity_reference_revisions

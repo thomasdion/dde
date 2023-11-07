@@ -1,0 +1,10 @@
+uuid: aec22c01-490a-4487-81fa-3b0ba2b9a951
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: 'Main navigation'
+description: 'Kεντρικό Άνω Μενού'
+locked: true

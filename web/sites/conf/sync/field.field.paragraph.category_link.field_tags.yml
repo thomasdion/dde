@@ -1,0 +1,29 @@
+uuid: bde8d682-7b9f-4130-8974-f4317123a89b
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tags
+    - paragraphs.paragraphs_type.category_link
+    - taxonomy.vocabulary.arthra
+id: paragraph.category_link.field_tags
+field_name: field_tags
+entity_type: paragraph
+bundle: category_link
+label: Tags
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      arthra: arthra
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

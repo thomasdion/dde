@@ -1,0 +1,10 @@
+uuid: 10feb416-fa6a-4533-a316-d1cd10a10c5d
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: Footer
+description: 'Σύνδεσμοι πληροφοριών ιστοτόπου'
+locked: true

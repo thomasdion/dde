@@ -1,0 +1,20 @@
+uuid: 434a2608-56f3-4172-9f0d-9f968e41122c
+langcode: en
+status: false
+dependencies:
+  module:
+    - dpe_blocks
+  theme:
+    - b5dpe
+id: articlecategoriesmenu
+theme: b5dpe
+region: bellow_content
+weight: -16
+provider: null
+plugin: dpe_blocks_article_categories_menu
+settings:
+  id: dpe_blocks_article_categories_menu
+  label: 'Article Categories Menu'
+  label_display: '0'
+  provider: dpe_blocks
+visibility: {  }

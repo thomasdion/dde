@@ -1,0 +1,25 @@
+uuid: 2c6f3bde-0738-4e0d-821d-73f0bc87ae5a
+langcode: el
+status: true
+dependencies:
+  content:
+    - 'block_content:sidebar_card:fd1e55c9-347e-40f3-93c7-1d1ec5e97a50'
+  module:
+    - block_content
+  theme:
+    - b5dpe
+id: eyhetiriakarta
+theme: b5dpe
+region: sidebar_second
+weight: -18
+provider: null
+plugin: 'block_content:fd1e55c9-347e-40f3-93c7-1d1ec5e97a50'
+settings:
+  id: 'block_content:fd1e55c9-347e-40f3-93c7-1d1ec5e97a50'
+  label: 'Ευχετήρια Κάρτα'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

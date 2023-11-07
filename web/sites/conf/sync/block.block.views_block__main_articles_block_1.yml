@@ -1,0 +1,24 @@
+uuid: 21db0cda-5eef-4e40-9b14-1785b5cba48d
+langcode: el
+status: true
+dependencies:
+  config:
+    - views.view.main_articles
+  module:
+    - views
+  theme:
+    - b5dpe
+id: views_block__main_articles_block_1
+theme: b5dpe
+region: sidebar_first
+weight: -19
+provider: null
+plugin: 'views_block:main_articles-block_1'
+settings:
+  id: 'views_block:main_articles-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

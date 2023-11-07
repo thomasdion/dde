@@ -1,0 +1,22 @@
+uuid: 6e51ff1e-8e1d-4082-9312-d7f5cf024c2b
+langcode: el
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - b5dpe
+_core:
+  default_config_hash: 5Q_C7ZbOffENlKzRGydkuvBs-u3RiLBbW2QJSk7yGo0
+id: b5dpe_help
+theme: b5dpe
+region: content
+weight: -14
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

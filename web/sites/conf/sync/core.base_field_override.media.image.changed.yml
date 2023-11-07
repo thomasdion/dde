@@ -1,0 +1,18 @@
+uuid: 074f519e-0abc-472a-bc2e-8211abbf6f9a
+langcode: el
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.changed
+field_name: changed
+entity_type: media
+bundle: image
+label: Τροποποιημένο
+description: 'The time the media item was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

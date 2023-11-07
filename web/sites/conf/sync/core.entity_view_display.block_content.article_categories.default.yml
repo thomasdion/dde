@@ -1,0 +1,25 @@
+uuid: 2f5bf890-5fc3-4ecc-aeb2-7151af3f4130
+langcode: el
+status: true
+dependencies:
+  config:
+    - block_content.type.article_categories
+    - field.field.block_content.article_categories.field_article_link
+  module:
+    - entity_reference_revisions
+id: block_content.article_categories.default
+targetEntityType: block_content
+bundle: article_categories
+mode: default
+content:
+  field_article_link:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: d5f3fe78-ffa0-43d9-88f4-31d6df5bcba5
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.arthra
+  module:
+    - text
+id: taxonomy_term.arthra.description
+field_name: description
+entity_type: taxonomy_term
+bundle: arthra
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

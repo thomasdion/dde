@@ -1,0 +1,82 @@
+uuid: c650424e-18ae-4bf4-bf83-e72bda666736
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.field.node.useful_links.field_icon
+    - field.field.node.useful_links.field_link
+    - field.field.node.useful_links.field_target
+    - image.style.useful_links
+    - node.type.useful_links
+  module:
+    - blazy
+    - link
+    - options
+    - user
+id: node.useful_links.default
+targetEntityType: node
+bundle: useful_links
+mode: default
+content:
+  field_icon:
+    type: blazy
+    label: hidden
+    settings:
+      caption:
+        title: '0'
+        alt: '0'
+      layout: ''
+      view_mode: ''
+      cache: 0
+      skin: ''
+      lazy: ''
+      style: ''
+      background: false
+      box_caption: ''
+      box_caption_custom: ''
+      box_media_style: ''
+      loading: ''
+      preload: false
+      responsive_image_style: ''
+      box_style: ''
+      image_style: useful_links
+      media_switch: ''
+      ratio: ''
+      thumbnail_style: ''
+      grid: ''
+      grid_medium: ''
+      grid_small: ''
+      current_view_mode: default
+      fx: ''
+      grid_header: ''
+      _item: ''
+      _uri: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: true
+      url_plain: true
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_target:
+    type: list_key
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

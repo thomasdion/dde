@@ -1,0 +1,22 @@
+uuid: 5277106f-9ee5-48bc-9a14-d5180caed1a2
+langcode: el
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.category_link
+id: paragraph.category_link.status
+field_name: status
+entity_type: paragraph
+bundle: category_link
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Ανοικτό
+  off_label: Κλειστό
+field_type: boolean

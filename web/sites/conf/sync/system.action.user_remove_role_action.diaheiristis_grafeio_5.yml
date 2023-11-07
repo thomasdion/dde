@@ -1,0 +1,14 @@
+uuid: 7f39f20b-fd06-4b9f-91d4-c06b26b92071
+langcode: el
+status: true
+dependencies:
+  config:
+    - user.role.diaheiristis_grafeio_5
+  module:
+    - user
+id: user_remove_role_action.diaheiristis_grafeio_5
+label: 'Remove the Διαχειριστής Γραφείο 5 role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: diaheiristis_grafeio_5

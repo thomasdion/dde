@@ -1,0 +1,10 @@
+uuid: caa0ec06-00c5-4aa9-af4f-48af742bb14e
+langcode: el
+status: true
+dependencies: {  }
+id: category_link
+label: 'Μενού άρθρων'
+icon_uuid: null
+icon_default: null
+description: 'Παράγραφος για το μενού άρθρων'
+behavior_plugins: {  }

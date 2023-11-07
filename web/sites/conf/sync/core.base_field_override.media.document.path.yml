@@ -1,0 +1,20 @@
+uuid: ee0c7f1d-e203-44bb-b4a1-5de8d5ddfbc6
+langcode: el
+status: true
+dependencies:
+  config:
+    - media.type.document
+  module:
+    - path
+id: media.document.path
+field_name: path
+entity_type: media
+bundle: document
+label: 'Ψευδώνυμο URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

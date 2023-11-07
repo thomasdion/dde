@@ -1,0 +1,8 @@
+uuid: 31cdaedd-239d-4563-a645-9ac200e75e6d
+langcode: el
+status: true
+dependencies: {  }
+id: sidebar_card
+label: 'SideBar Card'
+revision: 0
+description: 'Πλευρική Κάρτα ευχών '

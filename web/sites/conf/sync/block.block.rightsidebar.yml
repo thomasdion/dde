@@ -1,0 +1,25 @@
+uuid: 554b5974-308f-46b0-bf9d-2738f639e78f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:sidebar:37b05929-5654-4b38-b5bd-4400f9ab271d'
+  module:
+    - block_content
+  theme:
+    - b5dpe
+id: rightsidebar
+theme: b5dpe
+region: sidebar_second
+weight: -15
+provider: null
+plugin: 'block_content:37b05929-5654-4b38-b5bd-4400f9ab271d'
+settings:
+  id: 'block_content:37b05929-5654-4b38-b5bd-4400f9ab271d'
+  label: 'Right Sidebar'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

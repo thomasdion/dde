@@ -1,0 +1,19 @@
+uuid: 13424bdb-8148-41f1-90ec-5bcfaee776f2
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nomos
+    - node.type.article
+id: node.article.field_nomos
+field_name: field_nomos
+entity_type: node
+bundle: article
+label: Νόμος
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,30 @@
+uuid: a61a2acf-c16c-417f-ae37-56f903a8b41a
+langcode: el
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d05ed66d-2e87-412c-bf0d-2ad328ac5f61'
+  module:
+    - block_content
+    - system
+  theme:
+    - b5dpe
+id: ypeythynosagogisygeias
+theme: b5dpe
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:d05ed66d-2e87-412c-bf0d-2ad328ac5f61'
+settings:
+  id: 'block_content:d05ed66d-2e87-412c-bf0d-2ad328ac5f61'
+  label: 'Αγωγή Υγείας'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /agogi-ygeias

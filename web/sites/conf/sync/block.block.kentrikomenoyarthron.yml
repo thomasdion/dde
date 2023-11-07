@@ -1,0 +1,25 @@
+uuid: ab024ae4-2dc2-4342-93a2-24548614e5b1
+langcode: el
+status: true
+dependencies:
+  content:
+    - 'block_content:article_categories:f7b29e4c-65a1-47b2-bb24-4ead691fc48c'
+  module:
+    - block_content
+  theme:
+    - b5dpe
+id: kentrikomenoyarthron
+theme: b5dpe
+region: bellow_content
+weight: -17
+provider: null
+plugin: 'block_content:f7b29e4c-65a1-47b2-bb24-4ead691fc48c'
+settings:
+  id: 'block_content:f7b29e4c-65a1-47b2-bb24-4ead691fc48c'
+  label: 'Κεντρικό Μενού Άρθρων'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

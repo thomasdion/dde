@@ -1,0 +1,30 @@
+uuid: bd2d6baa-e1f8-4a20-aec8-b4e4d59ab52e
+langcode: el
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:02b7355e-4797-4bee-a1d3-8ad1d9c6e362'
+  module:
+    - block_content
+    - system
+  theme:
+    - b5dpe
+id: palaioteresanakoinoseisp.y.s.p.e
+theme: b5dpe
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:02b7355e-4797-4bee-a1d3-8ad1d9c6e362'
+settings:
+  id: 'block_content:02b7355e-4797-4bee-a1d3-8ad1d9c6e362'
+  label: 'Παλαιότερες ανακοινώσεις Π.Υ.Σ.Π.Ε'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /anakoinoseis-pyspe

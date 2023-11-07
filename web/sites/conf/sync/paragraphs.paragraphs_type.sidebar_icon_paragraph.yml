@@ -1,0 +1,10 @@
+uuid: 87e025af-2f32-4c46-b025-1e73aebf472a
+langcode: en
+status: true
+dependencies: {  }
+id: sidebar_icon_paragraph
+label: 'Sidebars εικονιδίων'
+icon_uuid: null
+icon_default: null
+description: 'Παράγραφος για εικονίδια πλαϊνών μπαρών'
+behavior_plugins: {  }

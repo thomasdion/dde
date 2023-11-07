@@ -1,0 +1,27 @@
+uuid: 30d7d386-7464-4370-8638-64383fa0deb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_file
+    - node.type.article
+  module:
+    - file
+id: node.article.field_file
+field_name: field_file
+entity_type: node
+bundle: article
+label: Αρχεία
+description: 'Επισυναπτόμενα έγγραφα'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf docx dox doc odf xls xlsx'
+  max_filesize: 16MB
+  description_field: true
+field_type: file

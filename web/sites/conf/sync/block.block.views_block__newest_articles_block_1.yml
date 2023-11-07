@@ -1,0 +1,24 @@
+uuid: dc6c9a00-e88f-46b2-ba71-8254aa484ed1
+langcode: el
+status: true
+dependencies:
+  config:
+    - views.view.newest_articles
+  module:
+    - views
+  theme:
+    - b5dpe
+id: views_block__newest_articles_block_1
+theme: b5dpe
+region: sidebar_second
+weight: -16
+provider: null
+plugin: 'views_block:newest_articles-block_1'
+settings:
+  id: 'views_block:newest_articles-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

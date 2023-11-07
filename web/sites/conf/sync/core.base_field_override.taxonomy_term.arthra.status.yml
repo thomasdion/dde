@@ -1,0 +1,22 @@
+uuid: 9486efc7-88e4-4029-99bb-ce5597a3e698
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.arthra
+id: taxonomy_term.arthra.status
+field_name: status
+entity_type: taxonomy_term
+bundle: arthra
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

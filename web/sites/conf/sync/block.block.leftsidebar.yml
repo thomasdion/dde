@@ -1,0 +1,25 @@
+uuid: 1e632174-76df-4dca-89e5-4aceb5a17190
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:sidebar:634fbf1e-7b8d-4bea-9446-cc1690d3473e'
+  module:
+    - block_content
+  theme:
+    - b5dpe
+id: leftsidebar
+theme: b5dpe
+region: sidebar_first
+weight: -18
+provider: null
+plugin: 'block_content:634fbf1e-7b8d-4bea-9446-cc1690d3473e'
+settings:
+  id: 'block_content:634fbf1e-7b8d-4bea-9446-cc1690d3473e'
+  label: 'Left Sidebar'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

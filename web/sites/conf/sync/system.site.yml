@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+langcode: el
+uuid: f5088026-3d57-45d1-b807-7f4d7b5520dd
+name: dpe
+mail: thomasdion@hotmail.gr
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /articles
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: el

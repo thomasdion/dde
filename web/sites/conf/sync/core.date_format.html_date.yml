@@ -1,0 +1,10 @@
+uuid: 87208a87-b57d-423c-ad3f-2620908da4ee
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EOQltUQPmgc6UQ2rcJ4Xi_leCEJj5ui0TR-12duS-Tk
+id: html_date
+label: 'HTML Ημερομηνία'
+locked: true
+pattern: Y-m-d

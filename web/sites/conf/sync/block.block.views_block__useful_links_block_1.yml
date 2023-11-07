@@ -1,0 +1,24 @@
+uuid: 6391f4ba-1563-4ec3-8f9d-62bf7b1c50bd
+langcode: el
+status: true
+dependencies:
+  config:
+    - views.view.useful_links
+  module:
+    - views
+  theme:
+    - b5dpe
+id: views_block__useful_links_block_1
+theme: b5dpe
+region: carousel
+weight: -12
+provider: null
+plugin: 'views_block:useful_links-block_1'
+settings:
+  id: 'views_block:useful_links-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

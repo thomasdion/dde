@@ -1,0 +1,29 @@
+uuid: e13a456d-9ee7-4ffa-83af-21139e1accec
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.page
+    - taxonomy.vocabulary.arthra
+id: node.page.field_tags
+field_name: field_tags
+entity_type: node
+bundle: page
+label: Ετικέτες
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      arthra: arthra
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

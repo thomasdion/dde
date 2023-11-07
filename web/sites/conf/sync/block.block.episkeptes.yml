@@ -1,0 +1,35 @@
+uuid: f280cd2e-e605-4eb6-920e-afad777d95af
+langcode: el
+status: true
+dependencies:
+  module:
+    - user
+    - visitors
+  theme:
+    - b5dpe
+id: episkeptes
+theme: b5dpe
+region: sidebar_first
+weight: -17
+provider: null
+plugin: visitors_block
+settings:
+  id: visitors_block
+  label: Επισκέψεις
+  label_display: visible
+  provider: visitors
+  show_last_registered_user: true
+  show_published_nodes: true
+  show_registered_users_count: true
+  show_since_date: true
+  show_total_visitors: true
+  show_unique_visitor: true
+  show_user_ip: true
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

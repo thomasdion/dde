@@ -1,0 +1,13 @@
+uuid: fea0d3ea-6f3f-44d5-8936-be545d3fec2a
+langcode: el
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: DyypzTfThX10FFQw-399qPfEbLLyrhXgQrKPVsmAoJ4
+id: user_block_user_action
+label: 'Αποκλεισμός επιλεγμένων χρηστών'
+type: user
+plugin: user_block_user_action
+configuration: {  }

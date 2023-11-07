@@ -1,0 +1,25 @@
+uuid: 8493e1e1-d938-4699-a969-1e79fcb2c416
+langcode: el
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4b3370a4-e3b9-49ac-945d-c93b0907b118'
+  module:
+    - block_content
+  theme:
+    - b5dpe
+id: paliosistotopos
+theme: b5dpe
+region: sidebar_second
+weight: -17
+provider: null
+plugin: 'block_content:4b3370a4-e3b9-49ac-945d-c93b0907b118'
+settings:
+  id: 'block_content:4b3370a4-e3b9-49ac-945d-c93b0907b118'
+  label: 'Παλιός Ιστότοπος'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

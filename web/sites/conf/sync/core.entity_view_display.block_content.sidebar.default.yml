@@ -1,0 +1,25 @@
+uuid: f6310a90-c8d5-484a-8299-7fb838e832c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.sidebar
+    - field.field.block_content.sidebar.field_paragraph_icon
+  module:
+    - entity_reference_revisions
+id: block_content.sidebar.default
+targetEntityType: block_content
+bundle: sidebar
+mode: default
+content:
+  field_paragraph_icon:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,23 @@
+uuid: 40e3b2b7-02b7-484a-983b-76aea249378c
+langcode: el
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_list_view
+    - node.type.article
+  module:
+    - options
+id: node.article.field_list_view
+field_name: field_list_view
+entity_type: node
+bundle: article
+label: 'Εμφάνιση σε Λίστα'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 2
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

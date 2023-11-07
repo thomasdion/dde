@@ -1,0 +1,14 @@
+uuid: ea181b48-c6c9-43a5-8d38-fef8c256e929
+langcode: el
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: k3aUaZXGDuhkek2TZIee0PApOPTvYZLadziekdyHA5A
+id: user_search
+label: Χρήστες
+path: user
+weight: 0
+plugin: user_search
+configuration: {  }

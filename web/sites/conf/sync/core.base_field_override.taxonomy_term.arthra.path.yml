@@ -1,0 +1,20 @@
+uuid: 6a4c539e-bcd3-4203-bd51-51949ef71305
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.arthra
+  module:
+    - path
+id: taxonomy_term.arthra.path
+field_name: path
+entity_type: taxonomy_term
+bundle: arthra
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

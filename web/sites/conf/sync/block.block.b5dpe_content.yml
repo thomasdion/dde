@@ -1,0 +1,22 @@
+uuid: bbe9c50e-c6e1-40cb-87e7-b3463e4b25ec
+langcode: el
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - b5dpe
+_core:
+  default_config_hash: 7u18swq0YJOJkkl0moy55DHsK8hpyXOeDb1ZHGouik4
+id: b5dpe_content
+theme: b5dpe
+region: content
+weight: -9
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

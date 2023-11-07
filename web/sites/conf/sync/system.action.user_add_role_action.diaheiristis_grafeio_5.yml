@@ -1,0 +1,14 @@
+uuid: 566d1179-a4df-47a9-9be6-f7c3d3ca3d5d
+langcode: el
+status: true
+dependencies:
+  config:
+    - user.role.diaheiristis_grafeio_5
+  module:
+    - user
+id: user_add_role_action.diaheiristis_grafeio_5
+label: 'Add the Διαχειριστής Γραφείο 5 role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: diaheiristis_grafeio_5

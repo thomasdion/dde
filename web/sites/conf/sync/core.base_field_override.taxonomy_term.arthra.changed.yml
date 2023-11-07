@@ -1,0 +1,18 @@
+uuid: 0e262ecd-0148-4553-ba9f-f0e5c78b775f
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.arthra
+id: taxonomy_term.arthra.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: arthra
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

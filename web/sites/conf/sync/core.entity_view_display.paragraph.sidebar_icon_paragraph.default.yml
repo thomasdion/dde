@@ -1,0 +1,39 @@
+uuid: 58b72479-8b90-468a-8ff3-02060b0af81b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.sidebar_icon_paragraph.field_icon
+    - field.field.paragraph.sidebar_icon_paragraph.field_icon_link
+    - image.style.sidebar_image
+    - paragraphs.paragraphs_type.sidebar_icon_paragraph
+  module:
+    - image
+    - link
+id: paragraph.sidebar_icon_paragraph.default
+targetEntityType: paragraph
+bundle: sidebar_icon_paragraph
+mode: default
+content:
+  field_icon:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: sidebar_image
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_icon_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

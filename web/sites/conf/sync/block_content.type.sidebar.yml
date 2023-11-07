@@ -1,0 +1,8 @@
+uuid: c36aa10f-910e-4815-ba76-c836958049b1
+langcode: en
+status: true
+dependencies: {  }
+id: sidebar
+label: SideBar
+revision: 0
+description: 'Sidebar με εικόνες'

@@ -1,0 +1,10 @@
+uuid: f0ae506f-f34a-46b2-bc76-490b0d4aa7b1
+langcode: el
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: nzL5d024NjXIX_8TlT6uFAu973lmfkmHklJC-2i9rAE
+id: medium
+label: 'Προεπιλoγή μεσαίας ημερομηνίας'
+locked: false
+pattern: 'D, m/d/Y - H:i'

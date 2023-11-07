@@ -1,0 +1,20 @@
+uuid: 797a18fc-a131-429b-a1b9-0f67695b9aff
+langcode: el
+status: true
+dependencies:
+  theme:
+    - b5dpe
+_core:
+  default_config_hash: LakZ_nM6fgswmbCkbpjdGkivxjpoPuR-cLcjsfWB42s
+id: b5dpe_page_title
+theme: b5dpe
+region: content
+weight: -16
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

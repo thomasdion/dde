@@ -1,0 +1,20 @@
+uuid: 9bc46cd8-b95b-4c43-9cb1-aa2a55101224
+langcode: en
+status: true
+dependencies:
+  module:
+    - dpe_blocks
+  theme:
+    - b5dpe
+id: headerbanner
+theme: b5dpe
+region: header
+weight: 0
+provider: null
+plugin: dpe_blocks_header_banner
+settings:
+  id: dpe_blocks_header_banner
+  label: 'Header Banner'
+  label_display: '0'
+  provider: dpe_blocks
+visibility: {  }

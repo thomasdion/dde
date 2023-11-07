@@ -1,0 +1,27 @@
+uuid: 21189344-6365-4212-b06c-76110e45da2d
+langcode: el
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_main_article
+field_name: field_main_article
+entity_type: node
+type: list_integer
+settings:
+  allowed_values:
+    -
+      value: 1
+      label: Ναί
+    -
+      value: 0
+      label: Όχι
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

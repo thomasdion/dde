@@ -1,0 +1,25 @@
+uuid: d03bbd60-42ee-4f0e-a225-32a5bd33ace3
+langcode: el
+status: true
+dependencies:
+  module:
+    - dpe_blocks
+    - system
+  theme:
+    - b5dpe
+id: oldarticles
+theme: b5dpe
+region: content
+weight: -7
+provider: null
+plugin: dpe_blocks_old_articles
+settings:
+  id: dpe_blocks_old_articles
+  label: 'Παλαιότερα άρθα'
+  label_display: '0'
+  provider: dpe_blocks
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/genikes-egkyklioi\r\n/egkyklioi-apospaseon\r\n/egkyklioi-metatheseon\r\n/egkyklioi-anapliroton\r\n/prokirykseis\r\n/agogi-ygeias\r\n/egkyklioi-sxolikon-drastiriotiton\r\n/perivallontiki-ekpaidefsi\r\n/politistika-themata"

@@ -1,0 +1,15 @@
+uuid: 3d9d99ac-5979-471d-9939-4147139a6afb
+langcode: en
+status: true
+dependencies: {  }
+name: sidebar_image
+label: 'Sidebar Image (180 x ..)'
+effects:
+  e8c7f018-603b-40fc-8603-2d02d5ef85c8:
+    uuid: e8c7f018-603b-40fc-8603-2d02d5ef85c8
+    id: image_scale
+    weight: 1
+    data:
+      width: 210
+      height: 110
+      upscale: true
