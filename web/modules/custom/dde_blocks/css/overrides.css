@@ -1,0 +1,93 @@
+/**HEADER**/
+.site-name {
+	text-indent: -9999px;
+}
+
+.site-branding__logo img {
+	max-width: 350px;
+}
+
+.logo::before {
+	position: absolute;
+	z-index: -1;
+	inset: calc(-1 * var(--b));
+	border: inherit;
+	border-radius: var(--r);
+	background: linear-gradient(#ba8354, #747e7d, #3173a3) border-box;
+	--corner: conic-gradient(from -90deg at var(--c) var(--c), red 25%, #0000 0) 0 0 / calc(100% - var(--c)) calc(100% - var(--c)) border-box;
+	--inner: conic-gradient(red 0 0) padding-box;
+	-webkit-mask: var(--corner), var(--inner);
+	-webkit-mask-composite: source-out;
+	mask: var(--corner) subtract, var(--inner);
+	content: "";
+}
+
+.logo {
+	--b: 0.5em;
+	--c: 3.3em;
+	--r: 1em;
+	position: relative;
+	margin: 0.1em auto;
+	border: solid var(--b) transparent;
+	padding: 0.5em;
+	max-width: 100%;
+	font: 0.7em ubuntu, sans-serif;
+	opacity: 0.8;
+}
+
+/*menu*/
+.sf-kentriki-ploigisi-2 span.nolink {
+	color: #505050;
+	letter-spacing: 0.25em;
+  	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 5px 17px;
+	margin: 0 5px;
+	line-height: 150%;
+	display: block;
+	text-decoration: none;
+	position: relative;
+}
+
+/*Bootsrap classes */
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) * -1);
+	margin-right: calc(var(--bs-gutter-x) * -.5);
+	margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.col-auto {
+	flex: 0 0 auto;
+	width: auto;
+}
+
+.text-center {
+	text-align: center !important;
+}
+
+.justify-content-center {
+	justify-content: center !important;
+}
+
+/**Content**/
+.ypepth.row {
+	font-size: 10px;
+}
+
+.ypepth img {
+	max-width: 50px;
+}
+
+.mb-4 {
+	margin-bottom: 1.5rem !important;
+}

@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Contains dde_blocks.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function dde_blocks_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the dde_blocks module.
+    case 'help.page.dde_blocks':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('DPE Custom Blocks') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements theme_preprocess_page().
+ */
+function dde_blocks_preprocess_page(&$variables) {
+
+  $variables['#attached']['library'][] = 'dde_blocks/overrides';
+}
+

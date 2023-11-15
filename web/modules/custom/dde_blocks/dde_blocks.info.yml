@@ -1,0 +1,5 @@
+name: 'dde_blocks'
+type: module
+description: 'DPE Custom Blocks'
+core_version_requirement: ^8.8 || ^9
+package: 'Custom'

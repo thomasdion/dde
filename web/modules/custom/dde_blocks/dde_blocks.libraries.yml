@@ -1,0 +1,8 @@
+global-styling:
+  css:
+    component:
+      css/components/style.css: {}
+overrides:
+  css:
+    component:
+      css/overrides.css: {}
