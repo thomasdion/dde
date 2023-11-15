@@ -19,3 +19,23 @@ function dde_preprocess_image_widget(array &$variables) {
     unset($data['preview']);
   }
 }
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter for blocks.
+ */
+function dde_theme_suggestions_block_alter(&$suggestions, $variables) {
+
+  // Load theme suggestions for blocks from parent theme.
+  foreach ($suggestions as &$suggestion) {
+    $suggestion = str_replace('dde_', 'showcase_lite_', $suggestion);
+  }
+}
+
+/**
+ * Implements theme_preprocess_page().
+ */
+function dde_preprocess_page(&$variables) {
+
+  die('1qweqweqweqwe');
+  $variables['#attached']['library'][] = 'dde/override-styles';
+}
